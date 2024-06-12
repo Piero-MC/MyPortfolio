@@ -5,15 +5,21 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Coverparticle from "./Components/Coverparticle"
+import Contact from "./Components/Contact";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar/>
-      <Mainp/>
-      <About/>
-      <Skills/>
-      <Projects/>
-    </div>
+    
+      <div>
+        <Navbar/>
+        <div className="">
+          <Mainp />
+          <About />
+          <Skills />
+          <Projects />z
+          <Contact />
+        </div>
+      </div>
+
   );
 }

@@ -28,7 +28,7 @@ const Projects = () => {
   ]
 
   return (
-    <div className="w-full h-full">
+    <section id='projects' className="w-full h-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
         <h2 class='py-4'>What I've Build</h2>
@@ -46,7 +46,7 @@ const Projects = () => {
 
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
