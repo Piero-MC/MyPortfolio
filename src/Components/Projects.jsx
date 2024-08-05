@@ -8,22 +8,22 @@ const Projects = () => {
     {
       title: 'Property Finder',
       backgroundImg: '/about.jpg',
-      projectUrl: '/'
+      projectUrl: '/property'
     },
     {
       title: 'Property Finder',
       backgroundImg: '/about.jpg',
-      projectUrl: '/'
+      projectUrl: '/property'
     },
     {
       title: 'Property Finder',
       backgroundImg: '/about.jpg',
-      projectUrl: '/'
+      projectUrl: '/property'
     },
     {
       title: 'Property Finder',
       backgroundImg: '/about.jpg',
-      projectUrl: '/'
+      projectUrl: '/property'
     }
   ]
 

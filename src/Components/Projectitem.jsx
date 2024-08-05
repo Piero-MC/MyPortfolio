@@ -15,7 +15,7 @@ const Projectitem = ({title,backgroundImg,projectUrl}) => {
             <div className="hidden group-hover:block cursor-default absolute top-[50%] lef-[50%] translate-y-[-50%]">
                 <h3 class='text-2xl text-white tracking-wider text-center'>{title}</h3>
                 <p className='pb-4 pt-2 text-white text-center'>React JS</p>
-                <Link href={projectUrl}>
+                <Link href='/property'>
                     <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
                 </Link>
             </div>
